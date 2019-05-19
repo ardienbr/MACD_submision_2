@@ -6,7 +6,7 @@ use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
-$connectionString = DefaultEndpointsProtocol=https;AccountName=latihanazure;AccountKey=TclVzvkk34gjpJuo2lPZdTqc27Twza5LVSh3azq1A5tYHeoUfdPy+VC2hTeKL/woLLCISCDMaQklubidYULwEQ==;EndpointSuffix=core.windows.net;
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=latihanazure;AccountKey=TclVzvkk34gjpJuo2lPZdTqc27Twza5LVSh3azq1A5tYHeoUfdPy+VC2hTeKL/woLLCISCDMaQklubidYULwEQ==;EndpointSuffix=core.windows.net;";
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 $containerName = "photocompetition";
 	
