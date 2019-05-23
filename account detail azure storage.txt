@@ -1,0 +1,4 @@
+account azure storage
+
+account_name : latihanazure
+account_key : TclVzvkk34gjpJuo2lPZdTqc27Twza5LVSh3azq1A5tYHeoUfdPy+VC2hTeKL/woLLCISCDMaQklubidYULwEQ==
